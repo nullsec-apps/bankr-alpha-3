@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{font-family:'DM Sans',sans-serif;letter-spacing:-0.03em}
+body{margin:0;background:#0A0C0E;color:#E8EDF0;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.font-display{font-family:'Sora',sans-serif}
+.mono{font-family:'DM Sans',sans-serif;font-variant-numeric:tabular-nums}
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-thumb{background:#2A2F35;border-radius:3px}
+::-webkit-scrollbar-thumb:hover{background:#3A3F45}
+::-webkit-scrollbar-track{background:transparent}
+
+@keyframes pulseHeat{0%,100%{opacity:0.5}50%{opacity:1}}
+@keyframes flashIn{0%{background:rgba(255,107,26,0.25)}100%{background:transparent}}
+.flash-in{animation:flashIn 1.2s ease-out}
